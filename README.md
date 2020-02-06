@@ -1,2 +1,3 @@
-# CS3481
-CS3481
+# CS3481 Fundamentals of Data Science
+
+Jupyter notebooks.
