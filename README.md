@@ -17,3 +17,8 @@
   - [Corona Virus](./CS3481_Coronavirus.ipynb)
 - Evaluation: The Problem of Overfitting ([Slides](https://portland-my.sharepoint.com/:p:/g/personal/chaozhao6-c_ad_cityu_edu_hk/ER0JRhCMp0JMob9Qa7Sp1DIBkQK2WiYu3ybJhUqryuKWNg?e=QZ9JHo))([Demo1](./CS3481_Unbiased_estimate.ipynb))([Demo2](./CS3481_Biased_estimate.ipynb))
   - TBQ: How to evaluate the performance of a learning algorithm?
+
+## One way to access and run all the Jupyter notebooks locally
+
+- Install [Anaconda](https://www.anaconda.com/), [VSCode](https://code.visualstudio.com/), [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) and [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) extensions for VSCode
+- Git clone the current repository using VSCode.
