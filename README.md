@@ -15,10 +15,11 @@
   - [Tutorial 1](./CS3481_Tutorial_1.ipynb)
   - [Tutorial 2](./CS3481_Tutorial_2.ipynb)
   - [Corona Virus](./CS3481_Coronavirus.ipynb)
-- Evaluation: The Problem of Overfitting ([Slides](https://portland-my.sharepoint.com/:p:/g/personal/chaozhao6-c_ad_cityu_edu_hk/ER0JRhCMp0JMob9Qa7Sp1DIBkQK2WiYu3ybJhUqryuKWNg?e=QZ9JHo))([Demo1](./CS3481_Unbiased_estimate.ipynb))([Demo2](./CS3481_Biased_estimate.ipynb))
+- Evaluation: The Problem of Overfitting ([Slides](https://portland-my.sharepoint.com/:p:/g/personal/chaozhao6-c_ad_cityu_edu_hk/ER0JRhCMp0JMob9Qa7Sp1DIBkQK2WiYu3ybJhUqryuKWNg?e=QZ9JHo))([Demo1](./CS3481_Unbiased_estimate.ipynb))([Demo2](./CS3481_Biased_estimate.ipynb))([Lecture 2 video](https://cityu.zoom.us/rec/share/-JxVE-DJ2WdLbK_N1B7NC4EsPIrKeaa8gCQe_vNeyxz3gRJW2de9xtP80M_7pViD))
   - TBQ: How to evaluate the performance of a learning algorithm?
+  - [Tutorial 3](./CS3481_Tutorial_3.ipynb)
 
 ## One way to access and run all the Jupyter notebooks locally
 
-- Install [Anaconda](https://www.anaconda.com/), [VSCode](https://code.visualstudio.com/), [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) and [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) extensions for VSCode
+- Install [Anaconda](https://www.anaconda.com/), [VSCode](https://code.visualstudio.com/), [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) and [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) extensions for VSCode.
 - Git clone the current repository using VSCode.
