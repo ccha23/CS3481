@@ -19,7 +19,8 @@
   - TBQ: How to evaluate the performance of a learning algorithm?
   - [Tutorial 3](./CS3481_Tutorial_3.ipynb)
 
-## One way to access and run all the Jupyter notebooks locally
+## References
 
-- Install [Anaconda](https://www.anaconda.com/), [VSCode](https://code.visualstudio.com/), [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) and [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) extensions for VSCode.
-- Git clone the current repository using VSCode.
+- [Han11](http://www.sciencedirect.com/science/book/9780123814791)
+- [Witten11](http://ebookcentral.proquest.com/lib/cityuhk/detail.action?docID=634862)
+- [Others](./CS3481_References.ipynb) (See Software tools for an instruction to clone/run the repository locally.)
