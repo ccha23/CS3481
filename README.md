@@ -1,6 +1,6 @@
 # CS3481 Fundamentals of Data Science
 
-## Zoom meetings 
+## Zoom meetings
 
 - [Lecture (Fri 12pm)](https://cityu.zoom.us/j/419080687?pwd=cHV6a0J0VHFlRXVvM0g2Qm5jc0RNUT09)
 - [Tutorial T\*1 (Fri 11am)](https://cityu.zoom.us/j/741795153?pwd=WGk0TmtZMnlMZ3JmWEV2Z1NOY1MzUT09)
