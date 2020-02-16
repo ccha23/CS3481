@@ -21,6 +21,7 @@
 - Classification: Learning from Neighbors ([Slides](https://portland-my.sharepoint.com/:p:/g/personal/chaozhao6-c_ad_cityu_edu_hk/EXxoh501hWpEix3mv_nc9wEBBaHyhFg1S415B3nqq0pwsA?e=LLUNk5))
   - TBQ: How to lazily learn well?
   - [Project 1](./CS3481_Project_1.ipynb)
+  - [Tutorial 4](./CS3481_Tutorial_4.ipynb)
 
 ## References
 
