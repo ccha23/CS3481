@@ -22,6 +22,19 @@
   - TBQ: How to lazily learn well?
   - [Project 1](./CS3481_Project_1.ipynb)
   - [Tutorial 4](./CS3481_Tutorial_4.ipynb)
+- Classification: Decision Tree Induction ([Slides](https://portland-my.sharepoint.com/:p:/g/personal/chaozhao6-c_ad_cityu_edu_hk/EeYvKK-sXfZGkw5Mmo6rTeYBOQzk3_PDGkQjxzA6t2YUcQ?e=djcQ9z)([Demo](./CS3481_Information_Quantities_for_Decision_Tree.ipynb)))
+  - TBQ: What is the best question that leads to the most informative answer?
+
+## Project 2 Presentation Schedule
+- Date: May 2 (Sat) or May 3 (Sun)
+- Location: Online
+- Tentative Session Assignments:
+  - May 2 (Sat)
+    - Morning (9am-12:30pm): Group 2-10
+    - Afternoon (2pm-5:30pm): Group 11-20
+  - May 3 (Sun)
+    - Morning (9am-12:30pm): Group 21-29
+    - Afternoon (2pm-5:30pm): Group 30-33, 35-40
 
 ## References
 
