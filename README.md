@@ -22,9 +22,10 @@
   - TBQ: How to lazily learn well?
   - [Project 1](./CS3481_Project_1.ipynb)
   - [Tutorial 4](./CS3481_Tutorial_4.ipynb)
-- Classification: Decision Tree Induction ([Slides](https://portland-my.sharepoint.com/:p:/g/personal/chaozhao6-c_ad_cityu_edu_hk/EeYvKK-sXfZGkw5Mmo6rTeYBOQzk3_PDGkQjxzA6t2YUcQ?e=djcQ9z)([Demo](./CS3481_Information_Quantities_for_Decision_Tree.ipynb)))
+- Classification: Decision Tree Induction ([Slides](https://portland-my.sharepoint.com/:p:/g/personal/chaozhao6-c_ad_cityu_edu_hk/EeYvKK-sXfZGkw5Mmo6rTeYBOQzk3_PDGkQjxzA6t2YUcQ?e=0hhCtL)([Demo](./CS3481_Information_Quantities_for_Decision_Tree.ipynb)))
   - TBQ: What is the best question that leads to the most informative answer?
   - [Tutorial 5](./CS3481_Tutorial_5.ipynb)
+- Classification: Rule-Based Classification ([Slides](https://portland-my.sharepoint.com/:p:/g/personal/chaozhao6-c_ad_cityu_edu_hk/ERWnmEi3qjBJuZvpYS-GxksBySP4H19vv975C04z-Q35ow?e=jHZ93g))
 
 ## Project 2 Presentation Schedule
 - Date: May 2 (Sat) or May 3 (Sun)
