@@ -26,6 +26,7 @@
   - TBQ: What is the best question that leads to the most informative answer?
   - [Tutorial 5](./CS3481_Tutorial_5.ipynb)
 - Classification: Rule-Based Classification ([Slides](https://portland-my.sharepoint.com/:p:/g/personal/chaozhao6-c_ad_cityu_edu_hk/ERWnmEi3qjBJuZvpYS-GxksBySP4H19vv975C04z-Q35ow?e=jHZ93g))
+  - [Tutorial 6](./CS3481_Tutorial_6.ipynb)
 
 ## Project 2 Presentation Schedule
 - Date: May 2 (Sat) or May 3 (Sun)
