@@ -29,6 +29,7 @@
   - [Tutorial 6](./CS3481_Tutorial_6.ipynb)
 - Classification: Ensemble Methods ([Slides](https://portland-my.sharepoint.com/:p:/g/personal/chaozhao6-c_ad_cityu_edu_hk/EZLz1YI9j4VNouu9lDJelwUBs3ENkffabTZDdEj5BJBNcg?e=nd3Nb3))
   - TBQ: How to build a strong classifier out of weak classifiers?
+  - [Tutorial 7](./CS3481_Tutorial_7.ipynb)
 
 ## Project 2 Presentation Schedule
 - Date: May 2 (Sat) or May 3 (Sun)
