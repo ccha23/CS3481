@@ -30,6 +30,12 @@
 - Classification: Ensemble Methods ([Slides](https://portland-my.sharepoint.com/:p:/g/personal/chaozhao6-c_ad_cityu_edu_hk/EZLz1YI9j4VNouu9lDJelwUBs3ENkffabTZDdEj5BJBNcg?e=nd3Nb3))
   - TBQ: How to build a strong classifier out of weak classifiers?
   - [Tutorial 7](./CS3481_Tutorial_7.ipynb)
+- Quiz
+  - [Tutorial 8 on Information Theory](https://portland-my.sharepoint.com/:p:/g/personal/chaozhao6-c_ad_cityu_edu_hk/Efll4DPOp6NMpUdguEMClu0BvqiFDSrsOZgD7MYiLJ86AA?e=E4QnnG)
+  - [ITIP](http://xitip.epfl.ch/)
+- Classification: Different Evaluation Metrics ([Slides](https://portland-my.sharepoint.com/:p:/g/personal/chaozhao6-c_ad_cityu_edu_hk/EZJSd9L1JTdNqHVvgQbyTv0Bu9Wl6X7JgCsTXVpUDw0W_w?e=ijdgmY))
+  - TBQ: Is it good enough for a classifier to be accurate?
+  - [Portable test for COVID19](https://portland-my.sharepoint.com/:p:/g/personal/chaozhao6-c_ad_cityu_edu_hk/EZJSd9L1JTdNqHVvgQbyTv0Bu9Wl6X7JgCsTXVpUDw0W_w?e=ijdgmY)
 
 ## Project 2 Presentation Schedule
 - Date: May 2 (Sat) or May 3 (Sun)
