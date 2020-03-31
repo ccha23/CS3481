@@ -36,6 +36,7 @@
 - Classification: Different Evaluation Metrics ([Slides](https://portland-my.sharepoint.com/:p:/g/personal/chaozhao6-c_ad_cityu_edu_hk/EZJSd9L1JTdNqHVvgQbyTv0Bu9Wl6X7JgCsTXVpUDw0W_w?e=AsQ9Jk))
   - TBQ: Is it good enough for a classifier to be accurate?
   - [Portable test for COVID19](https://www.nature.com/articles/d41587-020-00010-2)
+  - [Tutorial 9](./CS3481_Tutorial_9.ipynb)
 
 ## Project 2 Presentation Schedule
 - Date: May 2 (Sat) or May 3 (Sun)
