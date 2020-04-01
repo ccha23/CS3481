@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Teachable Machine</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=yes">
+    <link rel="stylesheet" href="assets/style.css" />
+
+    <style>
+        body,
+        html {
+            height: 100%;
+        }
+
+        tm-classifier-drawer .error-message {
+            font-weight: bold;
+            color: #E05534;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="unsupported-msg" class="unsupported-msg" aria-hidden="true">
+        <h2>Sorry… Teachable Machine isn’t supported here :(</h2>
+        <p>Your browser <span class="mobile-msg">or device </span> doesn’t support Teachable Machine.</p>
+        <p>Learn more about Teachable Machine on the <a target="_top" href="/">Homepage</a>, or visit this site on
+            desktop in <a href="https://www.google.com/chrome/" target="_blank">Chrome</a><span class="mobile-msg"> or
+                Safari</span>.</p>
+    </div>
+    <script>
+        // Unsupported fallback:
+        var isMobile = (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
+        var isOpera = (!!window.opr && !!opr.addons) || !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
+        var isFirefox = typeof InstallTrigger !== 'undefined';
+        var isSafari = /constructor/i.test(window.HTMLElement) || (function (p) { return p.toString() === "[object SafariRemoteNotification]"; })(!window['safari'] || (typeof safari !== 'undefined' && safari.pushNotification));
+        var isIE = /*@cc_on!@*/false || !!document.documentMode;
+        var isEdge = !isIE && !!window.StyleMedia;
+        var isChrome = !!window.chrome; // && (!!window.chrome.webstore || !!window.chrome.runtime);
+
+        var msgContainer = document.getElementById('unsupported-msg');
+        // Grab the message DOM right away — if the app loads, it will remove it
+        var unsupportedMsg = document.getElementById('unsupported-msg');
+        // Once the DOM is ready, proceed
+        document.addEventListener('DOMContentLoaded', function (event) {
+            // Conditions go here for the necessary requirements
+            if (typeof customElements === 'undefined' || isMobile || !(isChrome || isSafari || isFirefox)) {
+                document.getElementsByTagName('html')[0].setAttribute('unsupported', '');
+                // Show our message and add it to the DOM if was removed
+                msgContainer.style.display = 'block';
+                unsupportedMsg.setAttribute('aria-hidden', 'false');
+                document.body.appendChild(unsupportedMsg);
+            }
+        });
+    </script>
+    <script type="text/javascript" src="models.bundle.js"></script>
+</body>
+
+</html>

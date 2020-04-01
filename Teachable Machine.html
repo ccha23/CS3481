@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Teachable Machine</title>
+    <base href="https://teachablemachine.withgoogle.com/models/static/" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=yes">
+    <link rel="stylesheet" href="assets/style.css" />
+    <script type="text/javascript" src="https://apis.google.com/js/api.js"></script>
+    <link rel="shortcut icon" href="/assets/img/favicon.png" />
+
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Teachable Machine">
+    <meta name="description"
+        content="Train a computer to recognize your own images, sounds, & poses.
+        A fast, easy way to create machine learning models for your sites, apps, and more – no expertise or coding required.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://teachablemachine.withgoogle.com/">
+    <meta property="og:title" content="Teachable Machine">
+    <meta property="og:description"
+        content="Train a computer to recognize your own images, sounds, & poses.
+        A fast, easy way to create machine learning models for your sites, apps, and more – no expertise or coding required.">
+    <meta property="og:image" content="https://teachablemachine.withgoogle.com/assets/img/Hero_image_16x9.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://teachablemachine.withgoogle.com/">
+    <meta property="twitter:title" content="Teachable Machine">
+    <meta property="twitter:description"
+        content="Train a computer to recognize your own images, sounds, & poses.
+        A fast, easy way to create machine learning models for your sites, apps, and more – no expertise or coding required.">
+    <meta property="twitter:image" content="https://teachablemachine.withgoogle.com/assets/img/Hero_image_16x9.jpg">
+    <style>
+        body,
+        html {
+            height: 100%;
+        }
+
+        tm-classifier-drawer .error-message {
+            font-weight: bold;
+            color: #E05534;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="unsupported-msg" class="unsupported-msg" aria-hidden="true">
+        <h2>Sorry… Teachable Machine isn’t supported here :(</h2>
+        <p>Your browser <span class="mobile-msg">or device </span> doesn’t support Teachable Machine.</p>
+        <p>Learn more about Teachable Machine on the <a target="_top" href="/">Homepage</a>, or visit this site on
+            desktop in <a href="https://www.google.com/chrome/" target="_blank">Chrome</a><span class="mobile-msg"> or
+                Safari</span>.</p>
+    </div>
+    <script>
+        // Unsupported fallback:
+        var isMobile = (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
+        var isOpera = (!!window.opr && !!opr.addons) || !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
+        var isFirefox = typeof InstallTrigger !== 'undefined';
+        var isSafari = /constructor/i.test(window.HTMLElement) || (function (p) { return p.toString() === "[object SafariRemoteNotification]"; })(!window['safari'] || (typeof safari !== 'undefined' && safari.pushNotification));
+        var isIE = /*@cc_on!@*/false || !!document.documentMode;
+        var isEdge = !isIE && !!window.StyleMedia;
+        var isChrome = !!window.chrome; // && (!!window.chrome.webstore || !!window.chrome.runtime);
+
+        var msgContainer = document.getElementById('unsupported-msg');
+        // Grab the message DOM right away — if the app loads, it will remove it
+        var unsupportedMsg = document.getElementById('unsupported-msg');
+        // Once the DOM is ready, proceed
+        document.addEventListener('DOMContentLoaded', function (event) {
+            // Conditions go here for the necessary requirements
+            if (typeof customElements === 'undefined' || isMobile || !(isChrome || isSafari || isFirefox)) {
+                document.getElementsByTagName('html')[0].setAttribute('unsupported', '');
+                // Show our message and add it to the DOM if was removed
+                msgContainer.style.display = 'block';
+                unsupportedMsg.setAttribute('aria-hidden', 'false');
+                document.body.appendChild(unsupportedMsg);
+            }
+        });
+    </script>
+    <!-- Feedback API -->
+    <script type="text/javascript" src="https://support.google.com/inapp/api.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140667198-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+
+        function getRedactedPathname() {
+            let p = window.location.pathname;
+            p = p.replace(/(?<=\/models\/)(\w+)(\/.+)?/gi, "[redacted_id]$2");
+            p = p.replace(/(\/train\/\w+\/)(\w+)(\/.+)?/gi, "$1[redacted_drive_id]$3");
+            p = p.replace(/(\/drive.+)(\"\w+\")(.+)/gi, "$1[redacted_drive_id]$3")
+            p = p.replace(/(\/train.+id=)(\w+)(&.+)/gi, "$1[redacted_drive_id]$3")
+            return p;
+        }
+        console.log(getRedactedPathname())
+        gtag('js', new Date());
+        gtag('config', 'UA-140667198-1', {
+            'page_path': getRedactedPathname(),
+            'referrer': document.referrer.split('?')[0],
+        });            
+    </script>
+    <script type="text/javascript" src="models.bundle.js"></script>
+</body>
+
+</html>

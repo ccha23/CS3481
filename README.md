@@ -31,12 +31,15 @@
   - TBQ: How to build a strong classifier out of weak classifiers?
   - [Tutorial 7](./CS3481_Tutorial_7.ipynb)
 - Quiz
-  - [Tutorial 8 on Information Theory](https://portland-my.sharepoint.com/:p:/g/personal/chaozhao6-c_ad_cityu_edu_hk/Efll4DPOp6NMpUdguEMClu0BvqiFDSrsOZgD7MYiLJ86AA?e=E4QnnG)
+  - [Tutorial 8 on Information Theory](https://portland-my.sharepoint.com/:p:/g/personal/chaozhao6-c_ad_cityu_edu_hk/Efll4DPOp6NMpUdguEMClu0BvqiFDSrsOZgD7MYiLJ86AA?e=EOyRPc)
   - [ITIP](http://xitip.epfl.ch/)
 - Classification: Different Evaluation Metrics ([Slides](https://portland-my.sharepoint.com/:p:/g/personal/chaozhao6-c_ad_cityu_edu_hk/EZJSd9L1JTdNqHVvgQbyTv0Bu9Wl6X7JgCsTXVpUDw0W_w?e=ouq0Sc))
   - TBQ: Is it good enough for a classifier to be accurate?
   - [Portable test for COVID19](https://www.nature.com/articles/d41587-020-00010-2)
   - [Tutorial 9](./CS3481_Tutorial_9.ipynb)
+- Cluster Analysis: Partitioning Methods ([Slides](https://portland-my.sharepoint.com/:p:/g/personal/chaozhao6-c_ad_cityu_edu_hk/EUR8Su2iexhJk3XFMXr26NoBADzQA_NmhoNsB9fNFHhE6w?e=zSOaHB))<br>
+Cluster Analysis: Hierarchical Methods ([Slides](https://portland-my.sharepoint.com/:p:/g/personal/chaozhao6-c_ad_cityu_edu_hk/EYwEnD-ebZFOkWU0DuWt_WQBwzT3s21RBKSqxR7DBYdFLA?e=s4S6Xc))
+  - TBQ: How to group similar things together while separating dissimilar things apart?
 
 ## Project 2 Presentation Schedule
 - Date: May 2 (Sat) or May 3 (Sun)
