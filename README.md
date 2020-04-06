@@ -40,6 +40,7 @@
 - Cluster Analysis: Partitioning Methods ([Slides](https://portland-my.sharepoint.com/:p:/g/personal/chaozhao6-c_ad_cityu_edu_hk/EUR8Su2iexhJk3XFMXr26NoBADzQA_NmhoNsB9fNFHhE6w?e=zSOaHB))<br>
 Cluster Analysis: Hierarchical Methods ([Slides](https://portland-my.sharepoint.com/:p:/g/personal/chaozhao6-c_ad_cityu_edu_hk/EYwEnD-ebZFOkWU0DuWt_WQBwzT3s21RBKSqxR7DBYdFLA?e=s4S6Xc))
   - TBQ: How to group similar things together while separating dissimilar things apart?
+  - [Tutorial 10](./CS3481_Tutorial_10.ipynb)
 
 ## Project 2 Presentation Schedule
 - Date: May 2 (Sat) or May 3 (Sun)
