@@ -47,7 +47,7 @@ Cluster Analysis: Hierarchical Methods ([Slides](https://portland-my.sharepoint.
 - Location: Online
 - Tentative Session Assignments:
   - May 2 (Sat)
-    - Morning (9am-12:30pm): Group 2-10
+    - Morning (9am-12:30pm): Group 1-10
     - Afternoon (2pm-5:30pm): Group 11-20
   - May 3 (Sun)
     - Morning (9am-12:30pm): Group 21-29
