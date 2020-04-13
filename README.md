@@ -41,6 +41,8 @@
 Cluster Analysis: Hierarchical Methods ([Slides](https://portland-my.sharepoint.com/:p:/g/personal/chaozhao6-c_ad_cityu_edu_hk/EYwEnD-ebZFOkWU0DuWt_WQBwzT3s21RBKSqxR7DBYdFLA?e=s4S6Xc))
   - TBQ: How to group similar things together while separating dissimilar things apart?
   - [Tutorial 10](./CS3481_Tutorial_10.ipynb)
+- Cluster Analysis: Different Evaluation Metrics ([Slides](https://portland-my.sharepoint.com/:p:/g/personal/chaozhao6-c_ad_cityu_edu_hk/ESadDc4f_A5Lg1TfI4yCnUYBdry9dfgKsw4t6TrN71_cRA?e=ywiRg4))
+  - TBQ: How to evaluate a clustering solution with/without ground truth?
 
 ## Project 2 Presentation Schedule
 - Date: May 2 (Sat) or May 3 (Sun)
