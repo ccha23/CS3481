@@ -44,6 +44,8 @@ Cluster Analysis: Hierarchical Methods ([Slides](https://portland-my.sharepoint.
 - Cluster Analysis: Different Evaluation Metrics ([Slides](https://portland-my.sharepoint.com/:p:/g/personal/chaozhao6-c_ad_cityu_edu_hk/ESadDc4f_A5Lg1TfI4yCnUYBdry9dfgKsw4t6TrN71_cRA?e=ywiRg4))
   - TBQ: How to evaluate a clustering solution with/without ground truth?
   - [Tutorial 11](./CS3481_Tutorial_11.ipynb)
+- Frequent Pattern Analysis: Apriori Algorithm ([Slides](https://portland-my.sharepoint.com/:p:/g/personal/chaozhao6-c_ad_cityu_edu_hk/ER4h3j4aCLpCgDrn8b9dnkYBgDXAQL9l7Wrlg6TG2U74Qg?e=rUrd4c))
+  - TBQ: How to obtain frequent patterns efficiently and turn them into rules of thumb?
 
 ## Project 2 Presentation Schedule
 - Date: May 2 (Sat) or May 3 (Sun)
